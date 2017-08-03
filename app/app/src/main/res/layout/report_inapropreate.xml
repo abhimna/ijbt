@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+
+        <RelativeLayout
+            android:id="@+id/ll_left_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <TextView
+                android:id="@+id/txt_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cancel"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:visibility="visible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/Middle_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Report-In-Appropriate"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:visibility="visible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ll_right_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/txt_reset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Done"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:visibility="invisible" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_bg"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="3dp"
+                android:alpha="0.4"
+                android:padding="11dp"
+                android:background="@android:color/black"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="WHY ARE YOU REPORTING THIS POST?"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:background="@color/dividerLine" />
+
+                <RelativeLayout
+                    android:id="@+id/ll_one"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="10dp" >
+
+                    <TextView
+                        android:id="@+id/txt_one"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:paddingTop="3dp"
+                        android:text="I don&apos;t like this photo"
+                        android:textColor="@android:color/white"
+                        android:textSize="16dp" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/dividerLine" />
+
+                <RelativeLayout
+                    android:id="@+id/ll_two"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="10dp" >
+
+                    <TextView
+                        android:id="@+id/txt_two"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:paddingTop="3dp"
+                        android:textColor="@android:color/white"
+                        android:text="This photo is spam or a scam"
+                        android:textSize="16dp" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/dividerLine" />
+
+                <RelativeLayout
+                    android:id="@+id/ll_three"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="10dp" >
+
+                    <TextView
+                        android:id="@+id/txt_three"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:paddingTop="3dp"
+                        android:textColor="@android:color/white"
+                        android:text="This photo puts people at risk"
+                        android:textSize="16dp" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/dividerLine" />
+
+                <RelativeLayout
+                    android:id="@+id/ll_four"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="10dp" >
+
+                    <TextView
+                        android:id="@+id/txt_four"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:paddingTop="3dp"
+                        android:textColor="@android:color/white"
+                        android:text="Self- harm(eating disorder,Cutting)"
+                        android:textSize="16dp" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/dividerLine" />
+
+                <RelativeLayout
+                    android:id="@+id/ll_five"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="10dp" >
+
+                    <TextView
+                        android:id="@+id/txt_five"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:paddingTop="3dp"
+                        android:textColor="@android:color/white"
+                        android:text="Harassment or bullying"
+                        android:textSize="16dp" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/dividerLine" />
+
+                <RelativeLayout
+                    android:id="@+id/ll_six"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="10dp" >
+
+                    <TextView
+                        android:id="@+id/txt_six"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:paddingTop="3dp"
+                        android:textColor="@android:color/white"
+                        android:text="Drug use"
+                        android:textSize="16dp" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/dividerLine" />
+
+                <RelativeLayout
+                    android:id="@+id/ll_seven"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="10dp" >
+
+                    <TextView
+                        android:id="@+id/txt_seven"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:paddingTop="3dp"
+                        android:textColor="@android:color/white"
+                        android:text="Nudity or pornography"
+                        android:textSize="16dp" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/dividerLine" />
+
+                <RelativeLayout
+                    android:id="@+id/ll_eight"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="10dp" >
+
+                    <TextView
+                        android:id="@+id/txt_eight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:paddingTop="3dp"
+                        android:textColor="@android:color/white"
+                        android:text="Hate speech or symbole"
+                        android:textSize="16dp" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/dividerLine" />
+
+                <RelativeLayout
+                    android:id="@+id/ll_nine"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="10dp" >
+
+                    <TextView
+                        android:id="@+id/txt_nine"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:paddingTop="3dp"
+                        android:text="Other"
+                        android:textColor="@android:color/white"
+                        android:textSize="16dp" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:background="@color/dividerLine" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

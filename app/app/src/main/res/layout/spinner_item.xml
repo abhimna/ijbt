@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@color/app_black_50_percent">
+
+    <com.pluggdd.ijbt.util.AppTextView
+        android:id="@+id/textViewCategoryName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/margin_large"
+        android:padding="@dimen/margin_small"
+        android:text="Text Here"
+        android:textColor="@color/app_white"
+        android:textSize="@dimen/text_size_large" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/textViewCategoryName"
+        android:layout_marginTop="@dimen/margin_small"
+        android:background="@color/app_grey_50_percent" />
+
+</RelativeLayout>

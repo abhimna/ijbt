@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/abhisheksingh/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_6da6547ed9fe42526a441f318053a059e0af0f9b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-10.0.1_0f2732cf364a0dc1189b6646d2513d02b7ca19fd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/libs/httpclient-4.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1d7d28fa738bdbfe4fbd895d9486308999bdf440">
+        <dex dex="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/transforms/dex/debug/folders/1000/2/httpclient-4.0.1_8e79d1e791de03a0a2c12132cd75f6f2216f13c2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.1.1_638628c34d4d0a9885ac52c160f18183b08ad466/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abhisheksingh/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.0.0_a1f7c589ef1fa23efb2797697ce9a29f71593af4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abhisheksingh/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_2c092d48b3497020c2a8afda36049973ad1e2516/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/exploded-aar/com.android.support/customtabs/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2d1eaa9e0b98f8fc4c2b989d9b30d4f1480648ac">
+        <dex dex="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-customtabs-23.4.0_f6a36ea897d5e6e31c296a6b9d1fac74ae290a74/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.4.0_c8f007f4132591a87afb451d72b5fab3ded75631/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-10.0.1_b8c7f4d9db24789adbf281b9282b00fadde546f9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/libs/universal-image-loader-1.9.4-SNAPSHOT.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="831368dfdef2c9396955489e9058e6ad8a8e4244">
+        <dex dex="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/transforms/dex/debug/folders/1000/2/universal-image-loader-1.9.4-SNAPSHOT_9c858835e4a5fc2b62eabd23a33dc674c4273a59/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abhisheksingh/.gradle/caches/modules-2/files-2.1/com.github.frankiesardo/icepick/2.3.6/c67092eec40738c16bdc5b9255a59c295cc16219/icepick-2.3.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c67092eec40738c16bdc5b9255a59c295cc16219">
+        <dex dex="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/transforms/dex/debug/folders/1000/10/icepick-2.3.6_293155de0f673bbbbb68fb22c054b13b11c89a0f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abhisheksingh/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-tasks-1.4.0_7fc4cb30a5add3f642b72d89ceb00b3f83efdad2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="de29a39f9260f88151b1ef453140e71c76b6c415">
+        <dex dex="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-10.0.1_0f4c8483dc521e32cd439251f7b6a4b696835522/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-10.0.1_b0d10ead7151696afb0f37ed9c8776e56482be26/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abhisheksingh/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/15.0/ed727a8d9f247e2050281cb083f1c77b09dcb5cd/guava-15.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ed727a8d9f247e2050281cb083f1c77b09dcb5cd">
+        <dex dex="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/transforms/dex/debug/folders/1000/10/guava-15.0_d12d7cb3d6580b0d15e8467d21ed477d66e95ec6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-multidex-1.0.1_4c9f72301f7d79624df1312604c4304ce1e6759a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.0.0_a2e786644d3773a985cd8faf0cdb26012a640a40/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="01f2e2a593c24baa2928beb8bf15c3075c6e48c1">
+        <dex dex="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c1a49373b01bd7784fac01e9850d12e2bfd6b2e1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_b64587926513c92a60dafc75909d83996828f4c0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/libs/vcameralibrary.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f193be00fa3b1941681ae9b0b8469ae4e5c6899f">
+        <dex dex="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/transforms/dex/debug/folders/1000/2/vcameralibrary_1567319e31ea37f215f6446c810f15106130d962/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_6c18accbf87d3067a5cb2830375384b31ec0c866/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abhisheksingh/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-applinks-1.4.0_9fb90e1c8a44151450fb94c93e5dd30abf42b218/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_b1b3e4a2460ea09df81e472ab6c3e295e18ac7b7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c80947966bca20abe3f0f2752b27bb9f0bda92eb">
+        <dex dex="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_98c28160f6b2792b4fa166b9e0c8d15186a34345/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/exploded-aar/IJBT/main/unspecified/jars/libs/nineoldandroids-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f086e018e187da53a1432c188023c86d1fa3ff73">
+        <dex dex="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/transforms/dex/debug/folders/1000/8/nineoldandroids-2.4.0_590b4baf5caf54bdddd44df2bd4ca2136ce43eaa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-10.0.1_50f39b113eef1cb5f728d44cb05c8459133df631/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.15.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="820605b42a2d3d9cb9e6c4cc7453fb4f802aedff">
+        <dex dex="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.android-facebook-android-sdk-4.15.0_2334dbd365d6ae23d7ad5a01a5b93a9c390d700f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-10.0.1_7a7a9f320089b55428a72f984ca897166ac7b72d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/exploded-aar/com.github.clans/fab/1.6.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1c3b9743fe8bb166a90a7e98b9b9f1f8021d80cd">
+        <dex dex="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.clans-fab-1.6.4_e518b465784bd7a0d14aa110d3b2b7ad26a2d072/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abhisheksingh/.gradle/caches/modules-2/files-2.1/com.github.frankiesardo/icepick-processor/2.3.6/4f2556c14b3556d3f65845d9644fdef32ee13831/icepick-processor-2.3.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4f2556c14b3556d3f65845d9644fdef32ee13831">
+        <dex dex="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/transforms/dex/debug/folders/1000/10/icepick-processor-2.3.6_ed76ab35b471e9a6426e0faf21a1bed2c1adf378/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-10.0.1_c21f3694aabef76969d909f77e067e2c4f09cb06/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/2.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="031e8b3ab2df4ab43b1017f84417d7e10dfbb8d2">
+        <dex dex="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/transforms/dex/debug/folders/1000/10/de.hdodenhof-circleimageview-2.0.0_f5e684e6903e7f5b21ba545407542962c8762f1c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_15922455acd36ad96e19f61d8ac4077c13271679/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-23.4.0_b6aec0e169df8cd432cd8ac8a79ab9733fce2f6a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/libs/httpmime-4.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d34b163e52a9727101aced60775d51c5085390a1">
+        <dex dex="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/transforms/dex/debug/folders/1000/2/httpmime-4.1.1_bb98993139fbc9e37eedc12cf198b92653e791b9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/libs/android-async-http-1.4.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3bae85a076241828810bf8fbcc12e5891d5fc34c">
+        <dex dex="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/transforms/dex/debug/folders/1000/2/android-async-http-1.4.4_f381f085e04254d64e546c91cb60148c3db8735e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/libs/slf4j-android-1.6.1-RC1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a0b527e8aabcc1f1e97d1674dc3f4f0794ec5df1">
+        <dex dex="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/transforms/dex/debug/folders/1000/2/slf4j-android-1.6.1-RC1_ef5086af9083958eeca829f8b5369d114029c518/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="/Users/abhisheksingh/ddrive/ijbt/IJBT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-messaging-10.0.1_677ba0a72396132965deacf4d20a465b32fa8bfb/classes.dex" />
+    </item>
+
+</items>

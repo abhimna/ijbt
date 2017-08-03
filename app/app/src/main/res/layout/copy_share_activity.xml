@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/ll_surface_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ll_camera_footer"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/ll_camera_header"
+        android:background="#000000">
+
+        <com.yixia.camera.view.CameraNdkView
+            android:id="@+id/record_screen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible" />
+
+        <ProgressBar
+            android:id="@+id/progressBartranscod"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:visibility="gone" />
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/ll_camera_header"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/app_grey_80_percent"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:id="@+id/ll_cancel_header"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/revv_share_cancel_btn" />
+
+            <!--<ImageButton
+                android:id="@+id/btn_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/revv_share_cancel_btn" />-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_switch_cam"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:layout_marginRight="@dimen/margin_medium"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_menu_camera" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <Chronometer
+        android:id="@+id/chronometer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ll_camera_footer"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="7dp"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/btn_flash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ll_camera_footer"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="7dp"
+        android:background="@drawable/revv_share_flash_off"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/ll_camera_footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingTop="10dp"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".33"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+            <ImageView
+                android:id="@+id/img_switch_photo_video"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/footer_selector"
+                android:src="@drawable/ic_videocam" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight=".34"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/img_capture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/footer_selector"
+                android:src="@drawable/ic_camera"
+
+                />
+        </LinearLayout>
+        <!--                 android:background="@drawable/revv_share_cam_btn" /> -->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".33"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_gallery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:background="@drawable/footer_selector"
+                android:src="@drawable/ic_gallery" />
+
+            <!--                 android:background="@drawable/glry_icon" /> -->
+            <!-- <ImageButton -->
+            <!-- android:id="@+id/btn_flash" -->
+            <!-- android:layout_width="wrap_content" -->
+            <!-- android:layout_height="wrap_content" -->
+            <!-- android:background="@drawable/revv_share_flash_off" /> -->
+
+            <!--             <ImageView -->
+            <!--                 android:id="@+id/switch_photo_video" -->
+            <!--                 android:layout_width="wrap_content" -->
+            <!--                 android:layout_height="wrap_content" -->
+            <!--                 android:textOff="" -->
+            <!--                 android:textOn="" -->
+            <!--                 android:thumb="@drawable/switch_bg_selector" -->
+            <!--                 android:thumbTextPadding="25dp" -->
+            <!--                 android:track="@drawable/track_bg_selector" /> -->
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/record_filter_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_flash"
+        android:layout_alignParentLeft="true"
+        android:background="#292929"
+        android:paddingBottom="5dip"
+        android:paddingRight="10dip"
+        android:paddingTop="5dip"
+        android:scrollbars="none"
+        android:visibility="gone">
+
+        <RadioGroup
+            android:id="@+id/record_filter_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"></RadioGroup>
+    </HorizontalScrollView>
+
+</RelativeLayout>

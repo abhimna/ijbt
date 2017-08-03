@@ -1,0 +1,58 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+    useLibrary 'org.apache.http.legacy'
+    splits {
+        abi {
+            enable true
+            reset()
+            include 'x86', 'armeabi-v7a'
+            universalApk true
+        }
+    }
+    defaultConfig {
+        applicationId "com.pluggdd.ijbt"
+        minSdkVersion 16
+        targetSdkVersion 22
+        multiDexEnabled true
+    }
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            lintOptions {
+                disable 'MissingTranslation'
+            }
+        }
+    }
+}
+
+dependencies {
+    compile project(':libraryGpuImageView')
+    compile project(':lib')
+    compile project(':main')
+    compile files('libs/android-async-http-1.4.4.jar')
+    compile files('libs/httpclient-4.0.1.jar')
+    compile files('libs/httpmime-4.1.1.jar')
+    compile files('libs/slf4j-android-1.6.1-RC1.jar')
+    compile files('libs/universal-image-loader-1.9.4-SNAPSHOT.jar')
+    compile files('libs/vcameralibrary.jar')
+    compile project(':cardstack')
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:cardview-v7:23.4.0'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'de.hdodenhof:circleimageview:2.0.0'
+    compile 'com.android.support:recyclerview-v7:23.4.0'
+    compile 'com.facebook.android:facebook-android-sdk:4.15.0'
+    compile 'com.github.clans:fab:1.6.4'
+    compile 'com.google.code.gson:gson:2.7'
+    compile 'com.google.firebase:firebase-core:10.0.1'
+    compile 'com.google.firebase:firebase-crash:10.0.1'
+    compile 'com.google.firebase:firebase-messaging:10.0.1'
+}
+apply plugin: 'com.google.gms.google-services'

@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/prakash/Development/Prakash/Workspace/IJBTLatest/emojicon/build/intermediates/res/merged/androidTest/debug/layout/emojicon_grid.xml",
+        "source": "/Users/prakash/Development/Prakash/Workspace/IJBTLatest/emojicon/build/intermediates/bundles/debug/res/layout/emojicon_grid.xml"
+    },
+    {
+        "merged": "/Users/prakash/Development/Prakash/Workspace/IJBTLatest/emojicon/build/intermediates/res/merged/androidTest/debug/layout/emojicon_item.xml",
+        "source": "/Users/prakash/Development/Prakash/Workspace/IJBTLatest/emojicon/build/intermediates/bundles/debug/res/layout/emojicon_item.xml"
+    },
+    {
+        "merged": "/Users/madhankumar/Development/Prakash/Workspace/IJBTLatest/emojicon/build/intermediates/res/merged/androidTest/debug/layout/emojicons.xml",
+        "source": "/Users/madhankumar/Development/Prakash/Workspace/IJBTLatest/emojicon/build/intermediates/bundles/debug/res/layout/emojicons.xml"
+    },
+    {
+        "merged": "/Users/prakash/Development/Prakash/Workspace/IJBTLatest/emojicon/build/intermediates/res/merged/androidTest/debug/layout/emojicons.xml",
+        "source": "/Users/prakash/Development/Prakash/Workspace/IJBTLatest/emojicon/build/intermediates/bundles/debug/res/layout/emojicons.xml"
+    },
+    {
+        "merged": "/Users/madhankumar/Development/Prakash/Workspace/IJBTLatest/emojicon/build/intermediates/res/merged/androidTest/debug/layout/emojicon_item.xml",
+        "source": "/Users/madhankumar/Development/Prakash/Workspace/IJBTLatest/emojicon/build/intermediates/bundles/debug/res/layout/emojicon_item.xml"
+    },
+    {
+        "merged": "/Users/prakash/Development/Prakash/Workspace/IJBTFinal/IJBT/emojicon/build/intermediates/res/merged/androidTest/debug/layout/emojicon_item.xml",
+        "source": "/Users/prakash/Development/Prakash/Workspace/IJBTFinal/IJBT/emojicon/build/intermediates/bundles/debug/res/layout/emojicon_item.xml"
+    },
+    {
+        "merged": "/Users/madhankumar/Development/Prakash/Workspace/IJBTLatest/emojicon/build/intermediates/res/merged/androidTest/debug/layout/emojicon_grid.xml",
+        "source": "/Users/madhankumar/Development/Prakash/Workspace/IJBTLatest/emojicon/build/intermediates/bundles/debug/res/layout/emojicon_grid.xml"
+    },
+    {
+        "merged": "/Users/prakash/Development/Prakash/Workspace/IJBTFinal/IJBT/emojicon/build/intermediates/res/merged/androidTest/debug/layout/emojicon_grid.xml",
+        "source": "/Users/prakash/Development/Prakash/Workspace/IJBTFinal/IJBT/emojicon/build/intermediates/bundles/debug/res/layout/emojicon_grid.xml"
+    },
+    {
+        "merged": "/Users/prakash/Development/Prakash/Workspace/IJBTFinal/IJBT/emojicon/build/intermediates/res/merged/androidTest/debug/layout/emojicons.xml",
+        "source": "/Users/prakash/Development/Prakash/Workspace/IJBTFinal/IJBT/emojicon/build/intermediates/bundles/debug/res/layout/emojicons.xml"
+    }
+]

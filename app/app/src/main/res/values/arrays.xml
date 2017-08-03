@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="record_filter">
+        <item>NORMAL</item>
+        <item>BLACKWHITE</item>
+        <item>SHARPEN</item>
+        <item>OLD_PHOTOS</item>
+        <item>NEON_LIGHT</item>
+        <item>ANTICOLOR</item>
+        <item>THROUGH</item>
+        <item>MOSAICS</item>
+        <item>REMINISCENCE</item>
+    </string-array>
+</resources>

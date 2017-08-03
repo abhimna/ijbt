@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        android:background="#83c3fb" >
+
+        <RelativeLayout
+            android:id="@+id/ll_left_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/header_icon"
+            android:gravity="center|center_vertical"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/header_back_btn" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/Middle_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Crop Audio"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp"
+                android:visibility="visible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/action_save"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/header_icon"
+            android:gravity="center|center_vertical"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/txt_reset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Done"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:visibility="visible" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0px"
+        android:layout_weight="1" >
+
+        <com.ringdroid.soundfile.WaveformView
+            android:id="@+id/waveform"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <com.ringdroid.soundfile.MarkerView
+            android:id="@+id/startmarker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Start marker"
+            android:nextFocusDown="@+id/endmarker"
+            android:src="@drawable/marker_left" />
+
+        <com.ringdroid.soundfile.MarkerView
+            android:id="@+id/endmarker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="End marker"
+            android:nextFocusDown="@+id/info"
+            android:nextFocusUp="@+id/startmarker"
+            android:src="@drawable/marker_right" />
+    </RelativeLayout>
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/info" -->
+    <!-- style="@style/AudioFileInfoOverlayText" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:gravity="center" -->
+    <!-- android:nextFocusDown="@+id/play" -->
+    <!-- android:nextFocusUp="@+id/endmarker" /> -->
+
+    <LinearLayout
+        style="@style/ToolbarBackground"
+        android:layout_width="fill_parent"
+        android:layout_height="62dip"
+        android:gravity="center" >
+
+        <ImageButton
+            android:id="@+id/rew"
+            style="@android:style/MediaButton"
+            android:layout_width="64dip"
+            android:layout_height="52dip"
+            android:layout_marginBottom="6dip"
+            android:layout_marginTop="6dip"
+            android:contentDescription="Rewind"
+            android:src="@android:drawable/ic_media_previous" />
+
+        <ImageButton
+            android:id="@+id/play"
+            style="@android:style/MediaButton"
+            android:layout_width="71dip"
+            android:layout_height="52dip"
+            android:layout_marginBottom="6dip"
+            android:layout_marginTop="6dip"
+            android:contentDescription="Play"
+            android:src="@android:drawable/ic_media_play" />
+
+        <ImageButton
+            android:id="@+id/ffwd"
+            style="@android:style/MediaButton"
+            android:layout_width="64dip"
+            android:layout_height="52dip"
+            android:layout_marginBottom="6dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="6dip"
+            android:contentDescription="Forword"
+            android:src="@android:drawable/ic_media_next" />
+    </LinearLayout>
+
+    <!-- <LinearLayout style="@style/HorizontalDividerTop" /> -->
+
+
+    <!-- <LinearLayout style="@style/HorizontalDividerBottom" /> -->
+
+</LinearLayout>

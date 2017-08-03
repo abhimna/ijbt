@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="fb_app_id">381526528901255</string>
+
+    <string name="app_name">IJBT</string>
+    <string name="new_follower">New Follower</string>
+    <string name="facebook_friend_join">Facebook Friend join</string>
+    <string name="mention">Mention</string>
+    <string name="facebook_friends">Facebook friends</string>
+    <string name="internet_error_message">NO INTERNET CONNECTION</string>
+    <string name="server_registered">From Demo Server: successfully added device!</string>
+    <string name="server_register_error">Could not register device on Demo Server after %1$d attempts.</string>
+    <!-- Twitter Configurations -->
+
+    <string name="gcm_SenderId" >468496054146</string>
+    <string name="fb_error_connection">\"Unable to connect with facebook please try after sometime\"</string>
+    <string name="fb_login">Facebook Login</string>
+    <string name="prompt_influencer_code">Do you have code? If Yes, please enter the same and press submit else press continue.</string>
+    <string name="submit">Submit</string>
+    <string name="str_continue">Continue</string>
+    <string name="follow">Follow</string>
+    <string name="no_data_available">No data available at this time</string>
+    <string name="prompt_show_favourites">There are no more, new purchases. Click to go to your Home age</string>
+    <string name="yes">Yes</string>
+    <string name="no_thanks">No. Thanks!</string>
+    <string name="loading_name">Loading Name</string>
+    <string name="error_influencer_code">The code you entered is not a valid code. Please try a valid code.</string>
+    <string name="ok">Ok</string>
+    <!-- End Configurations -->
+
+</resources>

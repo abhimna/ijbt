@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="default_text">#6F7179</color>
+    <color name="dividerLine">#C8C7CC</color>
+    <color name="themecolor">#6fbafd</color>
+
+    <drawable name="waveform_selected">#33b5e5</drawable>
+    <drawable name="waveform_unselected">#195a72</drawable>
+    <drawable name="waveform_unselected_bkgnd_overlay">#0a242d</drawable>
+    <drawable name="selection_border">#ffffff</drawable>
+    <drawable name="playback_indicator">#ffff66</drawable>
+    <drawable name="grid_line">#66ffffff</drawable>
+    <drawable name="timecode">#ddffffdd</drawable>
+    <drawable name="timecode_shadow">#aa000000</drawable>
+
+    <!-- Mahendra Custom Color For Camera Filter -->
+    <color name="black">#000</color>
+    <color name="white">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="camera_theme_selected_bgcolor">#2980B9</color>
+    <color name="text_color">#ffffff</color>
+    <color name="back_color">#5f7dc1</color>
+
+</resources>

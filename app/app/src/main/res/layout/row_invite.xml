@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5.0dip" >
+
+    <ImageView
+        android:id="@id/iv_profile"
+        android:layout_width="60.0dip"
+        android:layout_height="60.0dip"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/default_round_img_profile"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:id="@+id/ll_user_status"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10.0dip"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/img_user_status"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5.0dip"
+            android:src="@drawable/follower_add_frnd"
+            android:textColor="@color/default_text"
+            android:textSize="13.0dip" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@id/tv_username"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5.0dip"
+        android:layout_toRightOf="@id/iv_profile"
+        android:text="john"
+        android:textColor="@color/themecolor"
+        android:textSize="16.0dip" />
+
+</RelativeLayout>

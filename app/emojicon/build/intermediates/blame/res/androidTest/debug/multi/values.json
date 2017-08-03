@@ -1,0 +1,74 @@
+[
+    {
+        "outputFile": "/Users/prakash/Development/Prakash/Workspace/IJBTFinal/IJBT/emojicon/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 161,
+                    "endColumn": 45,
+                    "endOffset": 202
+                },
+                "from": {
+                    "file": "/Users/prakash/Development/Prakash/Workspace/IJBTFinal/IJBT/emojicon/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 161,
+                        "endColumn": 45,
+                        "endOffset": 202
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/prakash/Development/Prakash/Workspace/IJBTLatest/emojicon/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 161,
+                    "endColumn": 45,
+                    "endOffset": 202
+                },
+                "from": {
+                    "file": "/Users/prakash/Development/Prakash/Workspace/IJBTLatest/emojicon/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 161,
+                        "endColumn": 45,
+                        "endOffset": 202
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/madhankumar/Development/Prakash/Workspace/IJBTLatest/emojicon/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 161,
+                    "endColumn": 45,
+                    "endOffset": 202
+                },
+                "from": {
+                    "file": "/Users/madhankumar/Development/Prakash/Workspace/IJBTLatest/emojicon/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 161,
+                        "endColumn": 45,
+                        "endOffset": 202
+                    }
+                }
+            }
+        ]
+    }
+]

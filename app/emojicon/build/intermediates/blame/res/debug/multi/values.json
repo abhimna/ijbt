@@ -1,0 +1,74 @@
+[
+    {
+        "outputFile": "/Users/prakash/Development/Prakash/Workspace/IJBTLatest/emojicon/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 161,
+                    "endColumn": 45,
+                    "endOffset": 202
+                },
+                "from": {
+                    "file": "/Users/prakash/Development/Prakash/Workspace/IJBTLatest/emojicon/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 1,
+                        "startColumn": 4,
+                        "startOffset": 16,
+                        "endColumn": 45,
+                        "endOffset": 57
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/prakash/Development/Prakash/Workspace/IJBTFinal/IJBT/emojicon/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 161,
+                    "endColumn": 45,
+                    "endOffset": 202
+                },
+                "from": {
+                    "file": "/Users/prakash/Development/Prakash/Workspace/IJBTFinal/IJBT/emojicon/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 1,
+                        "startColumn": 4,
+                        "startOffset": 16,
+                        "endColumn": 45,
+                        "endOffset": 57
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/madhankumar/Development/Prakash/Workspace/IJBTLatest/emojicon/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 161,
+                    "endColumn": 45,
+                    "endOffset": 202
+                },
+                "from": {
+                    "file": "/Users/madhankumar/Development/Prakash/Workspace/IJBTLatest/emojicon/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 1,
+                        "startColumn": 4,
+                        "startOffset": 16,
+                        "endColumn": 45,
+                        "endOffset": 57
+                    }
+                }
+            }
+        ]
+    }
+]
